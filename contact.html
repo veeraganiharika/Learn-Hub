@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="logo.jpg" alt="LearnHub Logo">
+            <span>LearnHub</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="login.html" class="nav-button">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <span class="tag">WE ARE HERE TO HELP</span>
+            <h1>Contact Us</h1>
+            <p>Have questions? We would love to hear from you.</p>
+        </section>
+
+        <section class="contact-section section">
+
+            <div class="contact-info">
+                <span class="tag">GET IN TOUCH</span>
+                <h2>Let's Connect</h2>
+                <p>Reach out to us for course-related questions
+                or general information.</p>
+
+                <div class="contact-item">
+                    <span>✉️</span>
+                    <div>
+                        <h3>Email</h3>
+                        <p>learnhub@example.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>📚</span>
+                    <div>
+                        <h3>Learning Support</h3>
+                        <p>Questions about our courses</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span>🌐</span>
+                    <div>
+                        <h3>Website</h3>
+                        <p>www.learnhub.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" action="success.html">
+                <h2>Send a Message</h2>
+
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name"
+                       placeholder="Enter your name" required>
+
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email"
+                       placeholder="Enter your email" required>
+
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject"
+                       placeholder="Enter subject" required>
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" rows="5"
+                          placeholder="Write your message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>LearnHub</h3>
+        <p>Learn Today. Lead Tomorrow.</p>
+        <p class="copyright">© 2026 LearnHub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
